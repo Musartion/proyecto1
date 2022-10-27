@@ -1,0 +1,3 @@
+hello 
+git add > para agregar al staging area, el limbo donde se mantendran
+git commit > para que se suba al repositorio
