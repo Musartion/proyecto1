@@ -3,6 +3,7 @@ git add > para agregar al staging area, el limbo donde se mantendran
 git commit > para que se suba al repositorio
 
 usuario
-
 git config --global user.name "NombreDeUsuario"
 git config --global user.email "correoEjemplo@gmail.com"
+
+git log NombreArchivo.txt > me mostrara la historia de los cambios que ha tenido el NombreArchivo
