@@ -7,3 +7,5 @@ git config --global user.name "NombreDeUsuario"
 git config --global user.email "correoEjemplo@gmail.com"
 
 git log NombreArchivo.txt > me mostrara la historia de los cambios que ha tenido el NombreArchivo
+
+git show > mostrara las modifiaciones con que tuvo con la version anterior
