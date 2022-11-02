@@ -25,3 +25,6 @@ git commit --amend -m "Mensaje corregido"   #Esto solo modifica el mensaje del u
 git branch BranchName
 #Select some branch
 git checkout BranchName
+
+
+ESTE ES UNA LINEA DE EJEMPLO EN LA LINEA CABECERA
