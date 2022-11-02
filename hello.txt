@@ -12,5 +12,16 @@ git show > mostrara las modifiaciones con que tuvo con la version anterior
 
 git diff ID1.. ID2.. > con este vamos a ver las diferencias que tienen entre un commit y otro
 
+##CAMBIAR EL NOMBRE DE UN ARCHIVO
+# si queremos modificar y/o actualizar el nombre de un archivo podemos utilar el comando
+git mv NombreActual NombreNuevo #Con eso git llevara un registro del cambio de nombre
 
+##CORREGIR EL MENSAJE DEL COMMINT
+# para este caso puedes utilizar el argumento --amend
+git commit --amend -m "Mensaje corregido"   #Esto solo modifica el mensaje del ultimo commit
 
+##TRABAJAR CON BRANCH, las ramas se crean apartir del commit donde te encuentres
+#New Branch         
+git branch BranchName
+#Select some branch
+git checkout BranchName
