@@ -25,3 +25,42 @@ git commit --amend -m "Mensaje corregido"   #Esto solo modifica el mensaje del u
 git branch BranchName
 #Select some branch
 git checkout BranchName
+
+#Etiquetas
+#Con este comando puede mostrarte un mini mapa para poder visualizar 
+git log --all --graph --decorate --oneline
+
+#se pueden asignar comando completos a un solo alias
+alias arbolito="git log --all --graph --decorate --oneline"
+
+#PARA HACER ETIQUTAS DE VERSIONES
+git tag -a (nombre) -m "mensaje para hacer mencion" (HashDelCommit)
+
+#Para conocer las etiquetas que se han hecho
+git tag
+
+#Para borrar un tag
+git tag -d (nombreTag)
+
+#Para borrar un tag tambien en gitHub
+git push origin :refs/tags/(nombre)
+
+#Para cargar los tags
+git push origin --tags
+
+#Vamos a psar las ramas a los repositorios de gitHub
+
+#
+git checkout  
+
+#podremos ver nustras branch con
+git show-branch
+
+#Se hace una forma mas visual de ver los cambios en las diferentes ramas
+gitk 
+
+#para hacer un push de la rama al repositorio
+    primero se hacer un pull del repositorio   
+    git pull origin main
+    git checkout '(rama a la que vas a mover)'
+    git push origin (rama a la que te cambiaste)
